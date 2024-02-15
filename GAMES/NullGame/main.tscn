@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://cd56ogl3la30d"]
+
+[ext_resource type="Script" path="res://GAMES/NullGame/scripts/main.gd" id="1_ka3bi"]
+[ext_resource type="Texture2D" uid="uid://d38ceuoo614k4" path="res://GAMES/FlappyBird/assets/bg.png" id="3_bgoba"]
+
+[node name="NullGame" type="Node"]
+script = ExtResource("1_ka3bi")
+
+[node name="Background" type="Sprite2D" parent="."]
+texture_repeat = 2
+position = Vector2(0, -2)
+scale = Vector2(3, 3)
+texture = ExtResource("3_bgoba")
+offset = Vector2(432, 384)
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 96
+text = "DON'T PUSH THE BUTTON"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BackToDirectorTimer" type="Timer" parent="."]
