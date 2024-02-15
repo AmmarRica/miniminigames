@@ -3,7 +3,7 @@ extends Node
 var timeLeft : int = 3
 var gamePaths = ["res://GAMES/SampleGame/Main.tscn",
 		"res://GAMES/SampleGame/Main.tscn",
-		"res://GAMES/SampleGame/Main.tscn", 
+		"res://GAMES/NullGame/main.tscn", 
 		"res://GAMES/FlappyBird/main.tscn"]
 
 # Called when the node enters the scene tree for the first time.
