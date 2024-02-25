@@ -2,10 +2,10 @@
 
 [ext_resource type="Script" path="res://Games/FlappyBird/scripts/main.gd" id="1_5g6v2"]
 [ext_resource type="Texture2D" uid="uid://d38ceuoo614k4" path="res://GAMES/FlappyBird/assets/bg.png" id="1_s2jh7"]
-[ext_resource type="PackedScene" uid="uid://cr3pl7yfk32tb" path="res://Games/FlappyBird/scenes/pipe.tscn" id="2_h58j0"]
-[ext_resource type="PackedScene" uid="uid://b6xt1pam4caki" path="res://Games/FlappyBird/scenes/bird.tscn" id="3_4ap2d"]
-[ext_resource type="PackedScene" uid="uid://d2ort7tfi33lg" path="res://Games/FlappyBird/scenes/ground.tscn" id="4_kx1e6"]
-[ext_resource type="PackedScene" uid="uid://snrvq7jkapgf" path="res://Games/FlappyBird/scenes/game_over.tscn" id="6_yk7bg"]
+[ext_resource type="PackedScene" uid="uid://cr3pl7yfk32tb" path="res://GAMES/FlappyBird/scenes/pipe.tscn" id="2_h58j0"]
+[ext_resource type="PackedScene" uid="uid://b6xt1pam4caki" path="res://GAMES/FlappyBird/scenes/bird.tscn" id="3_4ap2d"]
+[ext_resource type="PackedScene" uid="uid://d2ort7tfi33lg" path="res://GAMES/FlappyBird/scenes/ground.tscn" id="4_kx1e6"]
+[ext_resource type="PackedScene" uid="uid://snrvq7jkapgf" path="res://GAMES/FlappyBird/scenes/game_over.tscn" id="6_yk7bg"]
 
 [node name="FlappyBird" type="Node"]
 script = ExtResource("1_5g6v2")
